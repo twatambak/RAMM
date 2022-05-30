@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuInicial.unity
+    guid: 06c7b03f07b3adc438d54ac83acc1c3c
+  - enabled: 1
+    path: Assets/Scenes/Placa 01/Placa 01 - Selecao de Etapa.unity
+    guid: 9b1868650030cd241b707eec31e66a2c
+  - enabled: 1
+    path: Assets/Scenes/Placa 01/Placa 01 - Step 01.unity
+    guid: 317717e3abc83be48a76c8c483976a8d
+  - enabled: 1
+    path: Assets/Scenes/Placa 01/Placa 01 - Step 02.unity
+    guid: acfd02dd200f2414ea8d119f66c6acb2
+  - enabled: 1
+    path: Assets/Scenes/Placa 01/Placa 01 - Step 03.unity
+    guid: f4c0bb51c02d50f418cd0aa0aeedb17c
+  - enabled: 1
+    path: Assets/Scenes/Placa 02/Placa 02 - Selecao de Etapa.unity
+    guid: 6060b5cdd254541449c81a7759bd0708
+  - enabled: 1
+    path: Assets/Scenes/Placa 02/Placa 02 - Step 01.unity
+    guid: cb9e41dd7ae22044a894924f6b75c444
+  - enabled: 1
+    path: Assets/Scenes/Placa 02/Placa 02 - Step 02.unity
+    guid: 99a0a27d6b0b8984583246821a6a085c
+  - enabled: 1
+    path: Assets/Scenes/Placa 02/Placa 02 - Step 03.unity
+    guid: 601105984c87e534c81ae2f617bca73f
+  - enabled: 1
+    path: Assets/Scenes/Placa WEG/Placa WEG - Selecao de Etapa.unity
+    guid: b2e1e0497ddf4234aa7239630a6f7c3a
+  - enabled: 1
+    path: Assets/Scenes/Placa WEG/Placa WEG - Step 01.unity
+    guid: 7db5400800e89724fb996582a5d16e75
+  - enabled: 1
+    path: Assets/Scenes/Placa WEG/Placa WEG - Step 02.unity
+    guid: 7d1b56fc777be83468aba80c769b98e0
+  - enabled: 1
+    path: Assets/Scenes/Placa WEG/Placa WEG - Step 03.unity
+    guid: 6ee34f8c4d279e744b52fa4a405654c7
+  - enabled: 1
+    path: Assets/Scenes/Placa WEG/Placa WEG - Step 04.unity
+    guid: 8df79bc51d8a31a45a24e071536641d8
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: be3ba6b04f73bad4a957911c185554ff
+  m_configObjects: {}
