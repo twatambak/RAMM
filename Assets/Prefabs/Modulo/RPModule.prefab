@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9150527005379274158}
   m_RootOrder: 1
@@ -103,6 +104,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9150527005379274158}
   m_RootOrder: 0
@@ -164,7 +166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9150527005095600412}
-  - component: {fileID: 9150527005095600403}
+  - component: {fileID: 4624352786582065408}
   m_Layer: 0
   m_Name: RPModule
   m_TagString: Untagged
@@ -182,12 +184,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.753348, y: -9.961858, z: -1.762127}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9150527005379274158}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9150527005095600403
+--- !u!114 &4624352786582065408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,26 +199,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 9150527005095600402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b83c641103003341a184232bbab8b08, type: 3}
+  m_Script: {fileID: 11500000, guid: d1047794a21be2d4a84c88a762f8c870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rectsRegularTrainer: []
-  rectsMirrorTrainer: []
-  screenshots: []
+  trainersMissing:
+  - {fileID: 11400000, guid: d133084b88ebd514bba04aa74346324b, type: 2}
+  trainersMisalign:
+  - {fileID: 11400000, guid: 71ed277ae7534d74a96e19ef1c2c6fa8, type: 2}
+  trainersMisplaced:
+  - {fileID: 11400000, guid: d12f90c125ef1c84db9c4372360835c9, type: 2}
   indicator: {fileID: 9150527004260371314}
-  regularTrainerName: 
-  mirrorTrainerName: 
-  text1: {fileID: 9150527004392860943}
-  countVerifierForRegular: 0
-  countVerifierForMirror: 0
+  informationText: {fileID: 0}
   endRecognizing: 0
   checkRects: 0
   qtdImages: 0
-  minDetectedsForRegular: 0
-  minDetectedsForMirror: 0
-  percentage: 0
-  percentageOfHitsRegular: 0
-  percentageOfHitsMirror: 0
+  step: 0
 --- !u!1 &9150527005379274157
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +243,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9150527004392860937}
   - {fileID: 9150527004260371312}
@@ -299,6 +298,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &9150527005379274159
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -132,14 +132,13 @@
             }
 
             
-
             //-----------------------------------------------
             if (endRecognizing)
             {
                 thereArePhotos = false;
                 checkRects = false;
 
-                minDetectedsForRegular = rectsRegularTrainer.Count * (percentage / 100);
+                
                 minDetectedsForMirror = rectsMirrorTrainer.Count * (percentage / 100);
 
                 percentageOfHitsRegular = (rectsRegularTrainer.Count * countVerifierForRegular) / 100;
