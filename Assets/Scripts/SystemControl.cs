@@ -93,7 +93,8 @@ public class SystemControl : MonoBehaviour
 
     public void Writter()
     {
-        string bah = Application.persistentDataPath + "/" + idWorker + ".csv";
+        DirectoryInfo info = Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\Logs");
+        string bah = info.ToString() + "/" + idWorker + ".csv";
         Debug.Log(bah);
         FileStream fappend = File.Open(bah, FileMode.Append);
         TextWriter tw = new StreamWriter(fappend);
